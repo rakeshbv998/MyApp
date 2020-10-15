@@ -4,7 +4,8 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		
-		System.out.println("i am commiting again");
+		Customer c1=new Customer("rakesh","bangalore");
+		System.out.println(c1);
 	}
 
 }
